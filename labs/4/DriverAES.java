@@ -13,7 +13,6 @@
 package lab4;
 
 import java.util.Scanner;
-import static lab4.AESCipher.aesRoundKeys;
 
 /*
  * DriverAES
@@ -38,7 +37,7 @@ public class DriverAES {
     String key = scan.nextLine();
     scan.close();
 
-    String[] roundKeysHex = aesRoundKeys(key);
+    String[] roundKeysHex = AESCipher.aesRoundKeys(key);
 
     for (String s: roundKeysHex){
       System.out.println(s);
