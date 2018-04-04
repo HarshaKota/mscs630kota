@@ -20,7 +20,7 @@ import java.util.ArrayList;
  * This class implements the Advanced Encryption Standard (AES) algorithm to produce 10 additional round keys
  * for a 128-bit key
  */
-class AESCipher {
+public class AESCipher {
 
   // Rijndael S-box
   private static final char[] SBOX =
@@ -120,7 +120,7 @@ class AESCipher {
    *
    * Return value: String array of round keys including the original key
    */
-  static String[] aesRoundKeys(String KeyHex) {
+  public static String[] aesRoundKeys(String KeyHex) {
 
     int noOfKeys = 11;
 
