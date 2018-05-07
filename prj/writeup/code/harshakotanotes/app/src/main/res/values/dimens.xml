@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_side_padding">1sp</dimen>
+    <dimen name="note_size">18sp</dimen>
+    <dimen name="date_size">12sp</dimen>
+</resources>

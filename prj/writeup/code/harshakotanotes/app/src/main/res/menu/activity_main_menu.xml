@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="false"
+        android:title="@string/encrypt"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/button_encrypt"
+        android:icon="@drawable/ic_enhanced_encryption_black_24dp"
+        android:title="@string/encrypt"
+        app:showAsAction="always" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="false"
+        android:title="@string/decrypt"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/button_decrypt"
+        android:icon="@drawable/ic_no_encryption_black_24dp"
+        android:title="@string/decrypt"
+        app:showAsAction="always" />
+
+</menu>

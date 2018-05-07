@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="false"
+        android:title="@string/voice"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/activity_open_note_menu_button_voice"
+        android:checkable="true"
+        android:enabled="true"
+        android:title=""
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/activity_open_note_menu_button_save"
+        android:title="@string/save"
+        android:icon="@drawable/ic_check_black_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/activity_open_note_menu_button_cancel"
+        android:title="@string/cancel"
+        android:icon="@drawable/ic_undo_black_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/activity_open_note_menu_button_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete_forever_black_24dp"
+        app:showAsAction="always" />
+</menu>
